@@ -1,0 +1,30 @@
+{
+  "user": "rsetiawan7",
+  "repo": "omprs",
+  "resources": [
+    {
+      "name": "^omprs-linux-x86.zip",
+      "platform": "linux",
+      "archive": true,
+      "includes": [],
+      "plugins": [],
+      "files": {
+        "Rust.so": "components/Rust.so"
+      }
+    },
+    {
+      "name": "^omprs-win-Win32.zip",
+      "platform": "windows",
+      "archive": true,
+      "includes": [],
+      "plugins": [],
+      "files": {
+        "Rust.dll": "components/Rust.dll"
+      }
+    }
+  ],
+  "runtime": {},
+  "contributors": [
+    "Sreyas-Sreelal"
+	]
+}
